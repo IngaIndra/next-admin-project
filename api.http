@@ -17,18 +17,18 @@ content-type: application/json
 
 ### GET SINGLE DATA
 
-GET http://localhost:3000/api/users/${ID} HTTP/1.1
+GET http://localhost:3000/api/users/7ae057de-0565-42c2-ae21-bd626f57c988 HTTP/1.1
 content-type: application/json
 
 
 ### UPDATE SINGLE DATA
 
-PUT http://localhost:3000/api/users/${ID} HTTP/1.1
+PUT http://localhost:3000/api/users/7ae057de-0565-42c2-ae21-bd626f57c988 HTTP/1.1
 content-type: application/json
 
 {
-  "firstname": "Boldoo",
-  "lastname": "Gotov",
+  "firstname": "Dulmaa",
+  "lastname": "Oubntas",
   "email": "alightenc0@go.com",
   "imageUrl": "http://dummyimage.com/117x116.png/cc0000/ffffff"
 }
@@ -36,5 +36,5 @@ content-type: application/json
 
 ### DELETE SINGLE DATA
 
-PUT http://localhost:3000/api/users/${ID} HTTP/1.1
+DELETE http://localhost:3000/api/users/${ID} HTTP/1.1
 content-type: application/json
